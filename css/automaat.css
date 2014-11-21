@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/***********/
+/* Kleuren */
+/***********/
+body {
+    background-color: #E0E0E0;
+}
+
+.rodetekst {
+    color: red;
+}
+
+table {
+    border-color: lightgrey;
+    background-color: white;
+}
+
+table.admin {
+    border-color: lightgrey;
+}
+
+.admin td {
+    border-color: lightgrey;
+}
+
+body.admin{
+    background-color: white;
+}
+
+td {
+    border-color: lightcoral;
+}
+
+.verkocht {
+    color: red;
+}
+
+.wisselgeld {
+    background-color: lightyellow;
+}
+
+.td {
+    border-color: black;
+}
+
+/************************/
+/* Opmaak tabellen, ... */
+/************************/
+a {
+    text-decoration: none;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-spacing: 5px 0px;
+}
+
+.rodetekst {
+    text-align: center;
+}
+
+.munten {
+    border-style: solid;
+}
+
+.munten td {
+    border-style: none;
+}
+
+table.admin {
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    empty-cells: hide;
+}
+
+.verzend {
+    empty-cells: hide;
+}
+
+.admin td {
+    border-style: solid;
+}
+
+body.admin{
+    text-align: center;
+}
+
+td {
+    border-style: solid;
+    width: 20%;
+}
+
+td.frisdrank {
+    border-top-style: none;
+}
+
+.verkocht {
+    font-weight: bold;
+}
+
+.saldo {
+    text-align: center;
+}
+
+.wisselgeld {
+    text-align: center;
+    border-style: dashed;
+    border-width: thin;
+    width: 20%;
+    margin: 10px auto;
+}
+
+.beweeg {
+    width: 50%;
+    margin: 0px auto;
+    position: relative;
+    -webkit-animation: beweegtekst 15s;
+    animation: beweegtekst 15s;
+}
+
+@-webkit-keyframes beweegtekst {
+    0% {left: 0px}
+    25% {left: -150px}
+    50% {left: 0px}
+    75% {left: 150px}
+    100% {left: 0px}
+}
+
+@keyframes beweegtekst {
+    0% {left: 0px}
+    25% {left: -150px}
+    50% {left: 0px}
+    75% {left: 150px}
+    100% {left: 0px}
+}
+
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    margin: 0 auto;
+    width: 50%;
+    empty-cells: hide;
+}
+
+.th {
+    display: table-header-group;
+    font-weight: bold;
+}
+
+.tr {
+    display: table-row;
+}
+
+.td {
+    display: table-cell;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px;
+}
